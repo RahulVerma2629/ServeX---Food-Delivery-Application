@@ -1,4 +1,4 @@
-# 🚀 SERVEX - Food Delivery Mobile Application
+# 🍔 SERVEX - Food Delivery Mobile Application
 
 A modern, scalable, and user-centric food delivery mobile application built with React Native.
 
