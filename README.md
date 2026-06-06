@@ -1,59 +1,152 @@
-# 🍔 ServeX
+# 🚀 SERVEX - Food Delivery Mobile Application
 
-A modern cross-platform food delivery application built using React Native.
+A modern, scalable, and user-centric food delivery mobile application built with React Native.
 
-ServeX aims to provide a fast, intuitive, and scalable food ordering experience with a clean user interface, real-time interactions, and a mobile-first design philosophy.
-
----
-
-## 📱 Overview
-
-ServeX is designed as a food delivery platform where users can:
-
-* Browse restaurants
-* Search food items
-* View restaurant details
-* Manage orders
-* Track deliveries
-* Save favorite restaurants
-* Access customer support
-* Manage profile and account settings
-
-The project is being developed with scalability and production-readiness in mind.
+SERVEX is designed to simplify the food ordering experience by connecting users with restaurants through an intuitive, high-performance mobile interface. The project focuses on clean architecture, responsive user experience, and production-oriented development practices.
 
 ---
 
-## 🚀 Features
+# 📖 About The Project
 
-### Current Features
+SERVEX aims to provide a seamless food delivery experience where users can discover restaurants, explore menus, place orders, manage deliveries, and interact with customer support through a single mobile platform.
 
-* Modern Home Screen
-* Restaurant Discovery
-* Food Categories
-* Promotional Offers Banner
-* Search Interface
-* User Profile Section
-* Responsive Mobile UI
-* Android Emulator Support
+The application is being developed with a strong emphasis on:
 
-### Planned Features
+* Modern Mobile UI/UX
+* Cross-Platform Development
+* Scalable Architecture
+* Maintainable Code Structure
+* Real-World Product Design Principles
 
-* Authentication (Login / Signup)
-* Restaurant Details Page
-* Food Menu Listing
-* Cart Management
-* Checkout Flow
+This project serves as both a practical food delivery solution and a demonstration of mobile application engineering using React Native.
+
+---
+
+# ✨ Key Features
+
+### User Experience
+
+✅ Modern and responsive interface
+
+✅ Fast and intuitive navigation
+
+✅ Mobile-first design approach
+
+✅ Interactive restaurant browsing
+
+✅ Search functionality
+
+✅ Personalized user profile
+
+✅ Promotional offers and banners
+
+---
+
+### Food Ordering System
+
+✅ Restaurant discovery
+
+✅ Food category exploration
+
+🔄 Restaurant details page
+
+🔄 Food menu browsing
+
+🔄 Add-to-cart functionality
+
+🔄 Order placement workflow
+
+🔄 Real-time order tracking
+
+---
+
+### User Management
+
+🔄 Authentication system
+
+🔄 Profile management
+
+🔄 Saved delivery addresses
+
+🔄 Favorites and wishlist
+
+🔄 Order history
+
+🔄 Notification preferences
+
+---
+
+### Customer Support
+
+🔄 Frequently Asked Questions (FAQs)
+
+🔄 In-app customer support
+
+🔄 Live assistance integration
+
+🔄 Issue reporting system
+
+---
+
+# 🏗 Architecture Overview
+
+SERVEX follows a modular and scalable architecture to ensure maintainability and future growth.
+
+### Application Layers
+
+```text
+Presentation Layer
+        │
+        ▼
+Navigation Layer
+        │
+        ▼
+Business Logic Layer
+        │
+        ▼
+Data Management Layer
+        │
+        ▼
+Backend Services
+```
+
+This structure allows individual modules to evolve independently while maintaining a clean separation of concerns.
+
+---
+
+# 📱 Screens & Modules
+
+### Home Screen
+
+* Featured promotions
+* Food categories
+* Restaurant listings
+* Search functionality
+* Quick navigation access
+
+### Profile Screen
+
+* User information
+* Order history
+* Favorites
+* Saved addresses
+* Customer support
+* Account settings
+
+### Upcoming Screens
+
+* Login & Registration
+* Restaurant Details
+* Food Menu
+* Shopping Cart
+* Checkout
 * Order Tracking
-* Favorites System
-* Address Management
-* Payment Integration
-* Push Notifications
-* Dark Mode
-* Customer Support Center
+* Notifications
+* Settings
 
 ---
 
-## 🛠 Tech Stack
+# 🛠 Technology Stack
 
 ### Frontend
 
@@ -62,6 +155,17 @@ The project is being developed with scalability and production-readiness in mind
 * React Navigation
 * React Native Components
 
+### Mobile Development
+
+* Android Studio Emulator
+* Metro Bundler
+* VS Code
+
+### Version Control
+
+* Git
+* GitHub
+
 ### Backend (Planned)
 
 * Firebase Authentication
@@ -69,26 +173,28 @@ The project is being developed with scalability and production-readiness in mind
 * Firebase Storage
 * Firebase Cloud Messaging
 
-### Development Tools
-
-* VS Code
-* Android Studio Emulator
-* Git & GitHub
-* Metro Bundler
-
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
-```bash
-ServeX/
+```text
+SERVEX/
 │
 ├── assets/
-│   └── images/
+│   ├── images/
+│   └── icons/
 │
 ├── screens/
 │   ├── HomeScreen.tsx
 │   ├── ProfileScreen.tsx
+│   ├── RestaurantScreen.tsx
+│   └── CartScreen.tsx
+│
+├── components/
+│
+├── services/
+│
+├── navigation/
 │
 ├── App.tsx
 │
@@ -100,79 +206,109 @@ ServeX/
 
 ---
 
-## 🎯 Product Vision
+# 🎯 Development Roadmap
 
-ServeX is more than a food delivery application.
+## Phase 1 — Foundation
 
-The goal is to build a platform that combines:
-
-* Fast food discovery
-* Seamless ordering experience
-* Intelligent recommendations
-* Reliable delivery tracking
-* User-centric design
-
-with a focus on performance and scalability.
+* [x] React Native Project Setup
+* [x] Android Environment Configuration
+* [x] Custom Application Branding
+* [x] Home Screen Development
+* [ ] Profile Screen Integration
+* [ ] Navigation Architecture
 
 ---
 
-## 📈 Development Roadmap
+## Phase 2 — Core Product Features
 
-### Phase 1 — Foundation
-
-* [x] Project Setup
-* [x] Android Build Configuration
-* [x] Custom Application Branding
-* [x] Home Screen UI
-* [ ] Profile Screen
-* [ ] Navigation Setup
-
-### Phase 2 — Core Features
-
-* [ ] Restaurant Listing
+* [ ] Restaurant Listings
 * [ ] Restaurant Details
-* [ ] Food Menu
-* [ ] Cart System
+* [ ] Dynamic Menus
+* [ ] Shopping Cart
 * [ ] Checkout Flow
+* [ ] Order Summary
 
-### Phase 3 — User Experience
+---
+
+## Phase 3 — User Management
 
 * [ ] Authentication
+* [ ] User Profiles
 * [ ] Saved Addresses
-* [ ] Favorites
-* [ ] Notifications
-
-### Phase 4 — Production
-
-* [ ] Backend Integration
-* [ ] Payment Gateway
-* [ ] Order Tracking
-* [ ] Deployment
+* [ ] Favorites System
+* [ ] Order History
 
 ---
 
-## 💡 Key Learning Objectives
+## Phase 4 — Backend Integration
 
-This project focuses on:
+* [ ] Firebase Authentication
+* [ ] Firestore Database
+* [ ] Cloud Storage
+* [ ] Push Notifications
 
-* Mobile App Architecture
-* React Native Development
-* UI/UX Design Principles
+---
+
+## Phase 5 — Production Readiness
+
+* [ ] Performance Optimization
+* [ ] Testing & Validation
+* [ ] Error Monitoring
+* [ ] CI/CD Integration
+* [ ] Play Store Deployment
+
+---
+
+# 💼 Engineering Goals
+
+This project is being developed to strengthen expertise in:
+
+* Mobile Application Development
+* React Native Ecosystem
+* Component-Based Architecture
 * State Management
 * API Integration
-* Firebase Services
-* Production Deployment
+* Scalable Frontend Systems
+* Cross-Platform Development
+* Product-Oriented Engineering
 
 ---
 
-## 👨‍💻 Author
+# 📊 Current Status
 
-Rahul Verma
+**Project Stage:** Active Development
 
-Built with ❤️ and continuous learning.
+SERVEX currently includes:
+
+* Functional React Native setup
+* Android emulator deployment
+* Custom application branding
+* Home screen implementation
+* Interactive UI components
+
+Additional modules and backend integration are actively planned for future development.
 
 ---
 
-## ⭐ Future Scope
+# 🌟 Future Vision
 
-ServeX is intended to evolve from a learning project into a complete food delivery ecosystem with real-time ordering, payment processing, delivery management, and scalable backend infrastructure.
+The long-term vision of SERVEX is to evolve into a complete food delivery ecosystem featuring:
+
+* Intelligent restaurant recommendations
+* Real-time delivery tracking
+* Secure payment processing
+* Customer engagement systems
+* Scalable cloud infrastructure
+* Production-grade mobile experience
+
+---
+
+# 👨‍💻 Author
+
+### Rahul Verma
+
+Passionate about building scalable software products, exploring modern mobile technologies, and creating user-centric digital experiences.
+
+---
+
+### Built with ❤️ using React Native
