@@ -311,4 +311,4 @@ Passionate about building scalable software products, exploring modern mobile te
 
 ---
 
-### Built with ❤️ using React Native
+### Built with ❤️ and continuous learning.
