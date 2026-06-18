@@ -48,43 +48,43 @@ This project serves as both a practical food delivery solution and a demonstrati
 
 ✅ Food category exploration
 
-🔄 Restaurant details page
+✅ Restaurant details page
 
-🔄 Food menu browsing
+✅ Food menu browsing
 
-🔄 Add-to-cart functionality
+✅ Add-to-cart functionality
 
-🔄 Order placement workflow
+✅ Order placement workflow
 
-🔄 Real-time order tracking
+✅ Real-time order tracking
 
 ---
 
 ### User Management
 
-🔄 Authentication system
+✅ Authentication system
 
-🔄 Profile management
+✅ Profile management
 
-🔄 Saved delivery addresses
+✅ Saved delivery addresses
 
-🔄 Favorites and wishlist
+✅ Favorites and wishlist
 
-🔄 Order history
+✅ Order history
 
-🔄 Notification preferences
+✅ Notification preferences
 
 ---
 
 ### Customer Support
 
-🔄 Frequently Asked Questions (FAQs)
+✅ Frequently Asked Questions (FAQs)
 
-🔄 In-app customer support
+✅ In-app customer support
 
-🔄 Live assistance integration
+✅ Live assistance integration
 
-🔄 Issue reporting system
+✅ Issue reporting system
 
 ---
 
